@@ -7,7 +7,7 @@ import EventChannel from "./event_broker/EventChannel";
 
 export default class Bottie {
     readonly client:Client
-    private broker:EventBroker
+    protected broker:EventBroker
     readonly properties:BotProperties
 
     constructor(properties:BotProperties){
