@@ -27,7 +27,7 @@ export default class Bottie {
     /**
      * Add a default command handling.
      */
-    public add_command_handling():void {
+    public set_command_handling():void {
         const message_channel = this.new_EventChannel("message");
         message_channel.handle = message => {
             if(message.content.startsWith(this.properties.prefix)){
