@@ -1,6 +1,6 @@
 {
-  "name": "@lottielabs/bottie",
-  "version": "1.0.3",
+  "name": "@enzodiazdev/bottie",
+  "version": "1.0.5",
   "description": "POO discordjs library in typescript",
   "main": "dist/index.js",
   "scripts": {
