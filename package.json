@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "@lottielabs/bottie",
-  "version": "1.0.3",
-=======
   "name": "@enzodiazdev/bottie",
   "version": "1.0.5",
->>>>>>> 38a02e3bf4776e3f7ab9749f92d482746cb6a0f2
   "description": "POO discordjs library in typescript",
   "main": "dist/index.js",
   "scripts": {
