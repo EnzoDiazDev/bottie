@@ -9,7 +9,7 @@ export default class Bottie {
     readonly client:Client
     protected broker:EventBroker
     readonly properties:BotProperties
-    protected command_match:RegExp
+    public command_match:RegExp
 
     constructor(properties:BotProperties){
         this.client = properties.discord_client || new Client();
