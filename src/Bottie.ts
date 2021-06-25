@@ -73,6 +73,7 @@ export default class Bottie {
      * @param args The event arguments.
      */
     public emit<BotEvent extends keyof BotEvents>(event:BotEvent, ...args:BotEvents[BotEvent]):void {
+        //@ts-ignore - its a delegation
         this.broker.emit(event, ...args);
     }
 
